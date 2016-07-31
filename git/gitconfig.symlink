@@ -7,5 +7,4 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = ~/.gitignore
         editor = subl
