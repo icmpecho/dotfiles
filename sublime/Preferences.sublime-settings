@@ -1,0 +1,19 @@
+{
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
+	"detect_indentation": true,
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_files": false,
+	"rulers":
+	[
+		78
+	],
+	"tab_size": 2,
+	"theme": "Soda SolarizedDark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"use_tab_stops": true,
+	"vintage_start_in_command_mode": true
+}

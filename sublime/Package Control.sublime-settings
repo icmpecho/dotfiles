@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"Babel",
+		"Better CoffeeScript",
+		"Cucumber",
+		"Dockerfile Syntax Highlighting",
+		"HexViewer",
+		"Modific",
+		"Package Control",
+		"SCSS",
+		"Solarized Color Scheme",
+		"sublime-github",
+		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
+		"Vintageous"
+	]
+}
