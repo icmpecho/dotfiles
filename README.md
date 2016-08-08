@@ -19,6 +19,14 @@ There's a few special files in the hierarchy.
   symlinked in when you run `script/bootstrap`.
 - **topic/\*.sublime-settings**: Any files ending in `.sublime-settings` get symlinked into your sublime settings directory 
 
+## before install
+
+You'll need OSX CLI tool which can be installed using:
+
+```sh
+xcode-select --install
+```
+
 ## install
 
 Run this:
