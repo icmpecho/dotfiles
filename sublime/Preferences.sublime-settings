@@ -15,5 +15,7 @@
 	"theme": "Soda SolarizedDark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+	"hot_exit": false,
+  "remember_open_files": false
 }
