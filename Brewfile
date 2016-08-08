@@ -3,7 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap 'neovim/neovim'
 
-brew 'ack'
+brew 'ag'
 brew 'coreutils'
 brew 'fzf'
 brew 'go'
