@@ -9,4 +9,5 @@ then
   alias la='gls -A --color'
 fi
 
+alias ack=ag
 alias vim=nvim
