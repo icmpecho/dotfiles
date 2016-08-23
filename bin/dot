@@ -4,8 +4,6 @@
 #
 # `dot` re-link your dotfiles
 
-export DOTFILES=$HOME/.dotfiles
-
 echo "› $DOTFILES/script/dot"
 $DOTFILES/script/dot
 

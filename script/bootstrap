@@ -2,7 +2,9 @@
 #
 # bootstrap installs things.
 
-cd "$(dirname "$0")/.."
+export DOTFILES=$HOME/.dotfiles
+cd "$DOTFILES"
 
 source bin/dot
+source bin/set-defaults
 source bin/update
