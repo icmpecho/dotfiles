@@ -152,9 +152,17 @@ install_sublime_settings () {
   unset IFS
 }
 
+install_nvim_settings () {
+  info 'installing nvim settings'
+  NVIM_CONFIG_DIR="$HOME/.config/nvim"
+  mkdir -p "$NVIM_CONFIG_DIR"
+  link_file "$DOTFILES_ROOT/nvim/init.vim"  "$NVIM_CONFIG_DIR/init.vim"
+}
+
 setup_gitconfig
 install_dotfiles
 install_sublime_settings
+install_nvim_settings
 
 echo ''
 
