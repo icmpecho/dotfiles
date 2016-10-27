@@ -139,6 +139,7 @@ install_dotfiles () {
 
 install_nvim_settings () {
   info 'installing nvim settings'
+  local overwrite_all=false backup_all=false skip_all=false
   NVIM_CONFIG_DIR="$HOME/.config/nvim"
   mkdir -p "$NVIM_CONFIG_DIR"
   link_file "$DOTFILES_ROOT/nvim/init.vim"  "$NVIM_CONFIG_DIR/init.vim"
