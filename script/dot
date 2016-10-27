@@ -137,21 +137,6 @@ install_dotfiles () {
   done
 }
 
-install_sublime_settings () {
-  info 'installing sublime settings'
-
-  local overwrite_all=false backup_all=false skip_all=false
-  mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
-
-  IFS=$'\n'
-  for src in $(find -H "$DOTFILES_ROOT" -maxdepth 2 -name '*.sublime-settings')
-  do
-    dst="$HOME/Library/Application Support/Sublime Text 3/Packages/User/$(basename "$src")"
-    link_file "$src" "$dst"
-  done
-  unset IFS
-}
-
 install_nvim_settings () {
   info 'installing nvim settings'
   NVIM_CONFIG_DIR="$HOME/.config/nvim"
@@ -161,7 +146,6 @@ install_nvim_settings () {
 
 setup_gitconfig
 install_dotfiles
-install_sublime_settings
 install_nvim_settings
 
 echo ''
