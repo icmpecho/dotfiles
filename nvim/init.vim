@@ -14,6 +14,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'bling/vim-bufferline'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'mileszs/ack.vim'
 call plug#end()
 
 " Color Scheme
@@ -50,7 +51,13 @@ set laststatus=2
 " fzf
 noremap <C-p> :FZF<CR>
 
+" ag
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+
 " Others
 set noswapfile
 set shell=/bin/sh
 set backspace=indent,eol,start
+imap jk <Esc>
