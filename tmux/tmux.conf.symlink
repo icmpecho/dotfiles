@@ -1,3 +1,6 @@
+# No esc delay
+set -sg escape-time 0
+
 ######################
 ### DESIGN CHANGES ###
 ######################
