@@ -13,6 +13,7 @@ brew 'neovim'
 brew 'node'
 brew 'python'
 brew 'python3'
+brew 'tmux'
 brew 'tree'
 brew 'wget'
 
