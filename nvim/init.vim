@@ -13,7 +13,7 @@ Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'bling/vim-bufferline'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug '/usr/local/opt/fzf'
 Plug 'mileszs/ack.vim'
 call plug#end()
 
