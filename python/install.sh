@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-pip install virtualenv
-pip install virtualenvwrapper
+pip3 install virtualenv
+pip3 install virtualenvwrapper
