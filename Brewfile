@@ -15,6 +15,7 @@ brew 'python'
 brew 'tmux'
 brew 'tree'
 brew 'wget'
+brew 'jq'
 
 cask '1password'
 cask 'alfred'
