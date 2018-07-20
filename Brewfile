@@ -5,6 +5,7 @@ tap 'neovim/neovim'
 
 brew 'ag'
 brew 'coreutils'
+brew 'ctags'
 brew 'fzf'
 brew 'go'
 brew 'grc'
