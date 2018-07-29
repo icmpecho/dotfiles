@@ -8,7 +8,7 @@ endif
 " Install Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
-Plug 'altercation/vim-colors-solarized'
+Plug 'lifepillar/vim-solarized8'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
@@ -18,11 +18,11 @@ Plug 'mileszs/ack.vim'
 call plug#end()
 
 " Color Scheme
-set termguicolors
-set background=dark
-color gruvbox
-filetype plugin indent on
 syntax on
+set background=dark
+set termguicolors
+color solarized8_flat
+filetype plugin indent on
 
 " Line number and column limit
 set number
