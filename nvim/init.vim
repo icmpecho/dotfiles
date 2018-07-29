@@ -21,7 +21,7 @@ call plug#end()
 syntax on
 set background=dark
 set termguicolors
-color solarized8_flat
+color solarized8
 filetype plugin indent on
 
 " Line number and column limit
